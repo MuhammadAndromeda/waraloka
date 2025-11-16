@@ -23,6 +23,10 @@ const swiper = new Swiper(".swiper", {
   direction: "horizontal",
   loop: true,
 
+  a11y:{
+    enabled: false,
+  },
+
   autoplay: {
     delay: 1000,
     disableOnInteraction: false,

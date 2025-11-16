@@ -72,19 +72,18 @@ header.innerHTML = `
                 </button>
             </nav>
 
-            <aside id="sidebar" class="w-80 h-screen py-6 px-8 bg-zinc-300/50 backdrop-blur-xs fixed right-0 top-0 gap-12 flex flex-col justify-start items-start translate-x-full transition-all duration-300">
+            <aside id="sidebar" class="w-[90%] h-screen py-6 px-8 bg-zinc-300/50 backdrop-blur-xs fixed right-0 top-0 gap-12 flex flex-col justify-start items-start translate-x-full transition-all duration-300">
                 <div class="w-full flex justify-end items-center">
-
-                    <a id="close-sidebar" class="w-12 h-12 bg-primary rounded-xl text-white text-2xl flex justify-center items-center">
+                    <button id="close-sidebar" class="w-12 h-12 bg-primary rounded-xl text-white text-2xl flex justify-center items-center" aria-label="Tutup menu navigasi">
                         <i class="fa-solid fa-xmark"></i>
                     </button>
                 </div>
 
-                <ul class="w-full gap-3 font-inter-medium flex flex-col justify-center items-start">
-                    <li><a href="index.html" class="text-primary-text text-lg text-center font-semibold capitalize">beranda</a></li>
-                    <li><a href="#testimonial" class="text-primary-text/60 text-lg text-center font-semibold capitalize">testimoni</a></li>
-                    <li><a href="#news" class="text-primary-text/60 text-lg text-center font-semibold capitalize">berita</a></li>
-                    <li><a href="#about-us" class="text-primary-text/60 text-lg text-center font-semibold capitalize">tentang kami</a></li>
+                <ul class="w-[full] gap-3 font-inter-medium flex flex-col justify-center items-start">
+                    <li><a href="index.html" class="text-white text-lg text-center font-semibold drop-shadow-md drop-shadow-black/60 capitalize">beranda</a></li>
+                    <li><a href="#testimonial" class="text-white/80 text-lg text-center font-semibold drop-shadow-md drop-shadow-black/60 capitalize">testimoni</a></li>
+                    <li><a href="#news" class="text-white/80 text-lg text-center font-semibold drop-shadow-md drop-shadow-black/60 capitalize">berita</a></li>
+                    <li><a href="#about-us" class="text-white/80 text-lg text-center font-semibold drop-shadow-md drop-shadow-black/60 capitalize">tentang kami</a></li>
                 </ul>
             </aside>
 `;
