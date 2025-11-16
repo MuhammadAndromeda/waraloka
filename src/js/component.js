@@ -19,7 +19,7 @@ export function getCategoriesArray(stores) {
 
 export function createStoreCardHTML(store) {
   return `
-      <a href="detail.html?id=${store.id}" class="w-[20rem] lg:w-70 lg:max-w-[300px] gap-3 flex flex-col justify-center items-start">
+      <a href="detail.html?id=${store.id}" class="w-70 lg:w-70 lg:max-w-[300px] gap-3 flex flex-col justify-center items-start">
         <img src="${store.images.thumbnail.image}" alt="${store.images.thumbnail.alt}" class="w-full h-50 max-w-full rounded-xl object-cover object-center" loading="lazy" decoding="async">
         <div class="gap-1 flex flex-col justify-center items-start">
           <h2 class="text-primary-text text-lg text-left font-pj-sans-semibold capitalize tracking-wide">${store.name}</h2>
