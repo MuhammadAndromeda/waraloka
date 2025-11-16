@@ -62,9 +62,9 @@ header.innerHTML = `
 
                 <ul class="gap-8 flex font-inter-medium justify-center items-center invisible lg:visible">
                     <li><a href="index.html" class="text-primary-text text-base text-center font-medium capitalize">beranda</a></li>
-                    <li><a href="#testimonial" class="text-primary-text/60 text-base text-center font-medium capitalize">testimoni</a></li>
-                    <li><a href="#news" class="text-primary-text/60 text-base text-center font-medium capitalize">berita</a></li>
-                    <li><a href="#about-us" class="text-primary-text/60 text-base text-center font-medium capitalize">tentang kami</a></li>
+                    <li><a href="index.html#testimonial" class="text-primary-text/60 text-base text-center font-medium capitalize">testimoni</a></li>
+                    <li><a href="index.html#news" class="text-primary-text/60 text-base text-center font-medium capitalize">berita</a></li>
+                    <li><a href="index.html#about-us" class="text-primary-text/60 text-base text-center font-medium capitalize">tentang kami</a></li>
                 </ul>
 
                 <button id="open-sidebar" class="w-12 h-12 bg-primary rounded-xl text-white text-2xl absolute right-6 visible lg:invisible flex justify-center items-center" aria-label="Buka menu navigasi">
@@ -81,9 +81,9 @@ header.innerHTML = `
 
                 <ul class="w-[full] gap-3 font-inter-medium flex flex-col justify-center items-start">
                     <li><a href="index.html" class="text-white text-lg text-center font-semibold drop-shadow-md drop-shadow-black/60 capitalize">beranda</a></li>
-                    <li><a href="#testimonial" class="text-white/80 text-lg text-center font-semibold drop-shadow-md drop-shadow-black/60 capitalize">testimoni</a></li>
-                    <li><a href="#news" class="text-white/80 text-lg text-center font-semibold drop-shadow-md drop-shadow-black/60 capitalize">berita</a></li>
-                    <li><a href="#about-us" class="text-white/80 text-lg text-center font-semibold drop-shadow-md drop-shadow-black/60 capitalize">tentang kami</a></li>
+                    <li><a href="index.html#testimonial" class="text-white/80 text-lg text-center font-semibold drop-shadow-md drop-shadow-black/60 capitalize">testimoni</a></li>
+                    <li><a href="index.html#news" class="text-white/80 text-lg text-center font-semibold drop-shadow-md drop-shadow-black/60 capitalize">berita</a></li>
+                    <li><a href="index.html#about-us" class="text-white/80 text-lg text-center font-semibold drop-shadow-md drop-shadow-black/60 capitalize">tentang kami</a></li>
                 </ul>
             </aside>
 `;
